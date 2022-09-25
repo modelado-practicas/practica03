@@ -1,14 +1,14 @@
-public abstract class BaguettePreparado implements Baguette{
-	protected Baguette nucleo;
+public class PedirMostaza extends BaguettePreparado{
+	
 
-	public BaguettePreparado(Baguette nucleo){
-		this.nucleo = nucleo;
+	public PedirMostaza(Baguette nucleo){
+		super(nucleo);
 	}
 
 
 	@Override
 	public String getDescripcion(){
-		return nucleo.getDescripcion();
+		return nucleo.getDescripcion() + "\nMostaza: $5";
 	}
 
 	@Override
@@ -43,7 +43,7 @@ public abstract class BaguettePreparado implements Baguette{
 
 	@Override
 	public int getMostaza(){
-		return nucleo.getMostaza();
+		return nucleo.getMostaza() +1;
 	}
 
 	@Override
@@ -58,6 +58,6 @@ public abstract class BaguettePreparado implements Baguette{
 
 	@Override
 	public int getPrecio(){
-		return nucleo.getPrecio();
+		return nucleo.getPrecio() + 5;
 	}
 }

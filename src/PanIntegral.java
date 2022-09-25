@@ -27,46 +27,57 @@ public class PanIntegral implements Baguette{
 		precio = 25;
 	}
 
+	@Override
 	public String getDescripcion(){
 		return descripcion;
 	}
 
+	@Override
 	public int getPollo(){
 		return pollo;
 	}
 
+	@Override
 	public int getPepperoni(){
 		return pepperoni;
 	}
 
+	@Override
 	public int getJamon(){
 		return jamon;
 	}
 
+	@Override
 	public int getLechuga(){
 		return lechuga;
 	}
 
+	@Override
 	public int getJitomate(){
 		return jitomate;
 	}
 
+	@Override
 	public int getCebolla(){
 		return cebolla;
 	}
 
+	@Override
 	public int getMostaza(){
 		return mostaza;
 	}
 
+	@Override
 	public int getCatsup(){
 		return catsup;
 	}
 
+	@Override
 	public int getMayonesa(){
 		return mayonesa;
 	}
 
+	@Override
 	public int getPrecio(){
 		return precio;
 	}

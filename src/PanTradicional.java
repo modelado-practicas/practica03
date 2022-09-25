@@ -14,7 +14,7 @@ public class PanTradicional implements Baguette{
 
 
 	public PanTradicional(){
-		descripcion = "Pan Tradicional: 20";
+		descripcion = "Pan Tradicional: $20";
 		pollo = 0;
 		pepperoni = 0;
 		jamon = 0;
@@ -27,46 +27,57 @@ public class PanTradicional implements Baguette{
 		precio = 20;
 	}
 
+	@Override
 	public String getDescripcion(){
 		return descripcion;
 	}
 
+	@Override
 	public int getPollo(){
 		return pollo;
 	}
 
+	@Override
 	public int getPepperoni(){
 		return pepperoni;
 	}
 
+	@Override
 	public int getJamon(){
 		return jamon;
 	}
 
+	@Override
 	public int getLechuga(){
 		return lechuga;
 	}
 
+	@Override
 	public int getJitomate(){
 		return jitomate;
 	}
 
+	@Override
 	public int getCebolla(){
 		return cebolla;
 	}
 
+	@Override
 	public int getMostaza(){
 		return mostaza;
 	}
 
+	@Override
 	public int getCatsup(){
 		return catsup;
 	}
 
+	@Override
 	public int getMayonesa(){
 		return mayonesa;
 	}
 
+	@Override
 	public int getPrecio(){
 		return precio;
 	}
