@@ -1,6 +1,6 @@
 
 public class AdaptadorSJP implements Baguette{
-	PizzaSJP pizza;
+	private PizzaSJP pizza;
 	
 	public AdaptadorSJP(PizzaSJP pizza) {
 		this.pizza = pizza;
@@ -11,7 +11,7 @@ public class AdaptadorSJP implements Baguette{
 		return "Deliciosa pizza de " + pizza.getCarne() +
 				" con queso " + pizza.getQueso() +
 				" y de una crujiente " + pizza.getMasa() +
-				" por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
+				", por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
 	}
 
 	@Override

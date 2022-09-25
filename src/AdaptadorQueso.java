@@ -1,6 +1,5 @@
 
 public class AdaptadorQueso implements Baguette{
-	
 	private PizzaQueso pizza;
 	
 	public AdaptadorQueso(PizzaQueso pizza) {
@@ -10,7 +9,7 @@ public class AdaptadorQueso implements Baguette{
 	@Override
 	public String getDescripcion() {
 		return "Sosprendente pizza de abundante queso " + pizza.getQueso() +
-				" con una crujiente " + pizza.getMasa() +
+				" y una crujiente " + pizza.getMasa() +
 				", por el sorprendente precio de " + pizza.getPrecio();
 	}
 

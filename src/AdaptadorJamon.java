@@ -1,6 +1,6 @@
 
 public class AdaptadorJamon implements Baguette{
-	PizzaJamon pizza;
+	private PizzaJamon pizza;
 	
 	public AdaptadorJamon(PizzaJamon pizza) {
 		this.pizza = pizza;
@@ -11,7 +11,7 @@ public class AdaptadorJamon implements Baguette{
 		return "Deliciosa pizza de " + pizza.getCarne() +
 				" con queso " + pizza.getQueso() +
 				" y una crujiente " + pizza.getMasa() +
-				" por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
+				", por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
 
 	}
 

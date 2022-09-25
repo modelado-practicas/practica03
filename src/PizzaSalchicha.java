@@ -1,5 +1,5 @@
 
-public class PizzaSalchica{
+public class PizzaSalchicha{
 	
 	public String getQueso() {
 		return "cheddar";

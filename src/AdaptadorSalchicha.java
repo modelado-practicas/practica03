@@ -1,8 +1,8 @@
 
 public class AdaptadorSalchicha implements Baguette{
-	private PizzaSalchica pizza;
+	private PizzaSalchicha pizza;
 	
-	public AdaptadorSalchicha(PizzaSalchica pizza) {
+	public AdaptadorSalchicha(PizzaSalchicha pizza) {
 		this.pizza = pizza;
 	}
 
@@ -11,7 +11,7 @@ public class AdaptadorSalchicha implements Baguette{
 		return "Deliciosa pizza de " + pizza.getCarne() +
 				" con queso " + pizza.getQueso() +
 				" y una crujiente " + pizza.getMasa() +
-				" por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
+				", por el sorprendente precio de " + pizza.getPrecio() + " pesos.";
 	}
 
 	@Override
