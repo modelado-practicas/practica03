@@ -1,6 +1,8 @@
 public class PedirCatsup extends BaguettePreparado{
 	
-
+	/**
+	 * Constructor para pedir catsup
+	 */
 	public PedirCatsup(Baguette nucleo){
 		super(nucleo);
 	}

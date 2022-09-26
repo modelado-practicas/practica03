@@ -1,6 +1,11 @@
 public abstract class BaguettePreparado implements Baguette{
 	protected Baguette nucleo;
 
+	
+	/**
+	 * Constructor del Bagguete preparado
+	 * @param nucleo Baguette nucleo
+	 */
 	public BaguettePreparado(Baguette nucleo){
 		this.nucleo = nucleo;
 	}

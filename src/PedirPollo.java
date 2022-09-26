@@ -1,6 +1,8 @@
 public class PedirPollo extends BaguettePreparado{
 	
-
+	/**
+	 * Constructor para pedir pollo
+	 */
 	public PedirPollo(Baguette nucleo){
 		super(nucleo);
 	}

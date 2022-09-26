@@ -1,6 +1,8 @@
 public class PedirMostaza extends BaguettePreparado{
 	
-
+	/**
+	 * Constructor para pedir mpstaza
+	 */
 	public PedirMostaza(Baguette nucleo){
 		super(nucleo);
 	}

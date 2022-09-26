@@ -13,6 +13,9 @@ public class PanIntegral implements Baguette{
 	private int precio;
 
 
+	/**
+	 * Constructor de Pan integral
+	 */
 	public PanIntegral(){
 		descripcion = "Pan Integral: $25";
 		pollo = 0;

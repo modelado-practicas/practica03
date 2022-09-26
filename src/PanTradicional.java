@@ -12,7 +12,9 @@ public class PanTradicional implements Baguette{
 	private int mayonesa;
 	private int precio;
 
-
+	/**
+	 * Constructor de Pan tradicional
+	 */
 	public PanTradicional(){
 		descripcion = "Pan Tradicional: $20";
 		pollo = 0;

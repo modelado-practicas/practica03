@@ -2,6 +2,10 @@
 public class AdaptadorJamon implements Baguette{
 	private PizzaJamon pizza;
 	
+	/**
+	 * Constructor de adaptador jamon
+	 * @param pizza pizza de jamon
+	 */
 	public AdaptadorJamon(PizzaJamon pizza) {
 		this.pizza = pizza;
 	}

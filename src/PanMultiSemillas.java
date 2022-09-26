@@ -12,7 +12,9 @@ public class PanMultiSemillas implements Baguette{
 	private int mayonesa;
 	private int precio;
 
-
+	/**
+	 * Constructor de Pan multi semillas
+	 */
 	public PanMultiSemillas(){
 		descripcion = "Pan Multi-semillas: $30";
 		pollo = 0;
