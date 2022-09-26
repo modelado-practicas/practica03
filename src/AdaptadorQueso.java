@@ -14,7 +14,7 @@ public class AdaptadorQueso implements Baguette{
 	public String getDescripcion() {
 		return "Sosprendente pizza de abundante queso " + pizza.getQueso() +
 				" y una crujiente " + pizza.getMasa() +
-				", por el sorprendente precio de " + pizza.getPrecio();
+				", por el sorprendente precio de $" + pizza.getPrecio();
 	}
 
 	@Override
